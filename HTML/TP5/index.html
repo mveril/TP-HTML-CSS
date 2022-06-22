@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <div>
+      <label for="lastName">Nom : </label> <input id="lastName" type="text">
+    </div>
+    <div>
+      <label for="firstName">Prénom : </label> <input id="firstName" type="text">
+    </div>
+    <div>
+      <label for="birthLocation">Lieu de naissance : </label> <input id="birthLocation" type="text">
+    </div>
+    <div>
+      <label for="birthDate">Date de naissance : </label> <input id="birthDate" type="date">
+    </div>
+    <div>
+      <label for="contryOfOrigin">Pays : </label> <input id="countryOfOrigin" type="text">
+    </div>
+    <div>
+      <label for="bacMean">Moyenne du bac : </label> <input id="BacMean" min="0" max="20" step="0.25" type="number">
+    </div>
+    <div>
+      <label for="formation">Formation : </label>
+      <select id="formation">
+        <option value=""> -- choisir --</option>
+        <option value="Bio">Biologie</option>
+        <option value="Physique">Physique</option>
+        <option value="Chimie">Chimie</option>
+        <option value="Astrophysique">Astrophysique</option>
+        <option value="Informatique">Informatique</option>
+        <option value="Ingénerie">Ingénérie</option>
+      </select>
+      <div>
+      <input type="submit">
+    </div>
+  </form>
+</body>
+</html>
