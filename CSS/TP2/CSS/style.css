@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+table {
+  border: 1px double #000;
+}
+
+th {
+  background-color: #001e32;
+  color: #fff;
+}
+tbody > tr:nth-child(odd) 
+{
+  background: #eeeeee
+}
+tbody > tr:nth-child(even) 
+{
+  background: #fff
+}
+.see-btn{
+  background-color: #007ccb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+}
+
+.see-btn:hover{
+  background-color: #005c97;
+}
+
+.see-btn:active{
+  background-color: #003c64;
+}
+
+.del-btn{
+  background-color: #ff5c6c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+}
+
+.del-btn:hover{
+  background-color: #cc4956;
+}
+
+.del-btn:active{
+  background-color: #993640;
+}
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
